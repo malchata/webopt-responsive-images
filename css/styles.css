@@ -176,6 +176,9 @@ footer{
 	color: #ecf0f1;
 }
 
+/*** Begin Media Queries ***/
+
+/* 480px */
 @media screen and (min-width: 30em){
 	#masthead{
 		height: 10rem;
@@ -190,6 +193,7 @@ footer{
 	}
 }
 
+/* 600px */
 @media screen and (min-width: 37.5em){
 	.navToggle{
 		display: none;
@@ -216,10 +220,16 @@ footer{
 	}
 
 	#tagline{
-		font-size: 1.5rem;
+		font-size: 1.375rem;
+		bottom: 1rem;
+	}
+
+	#masthead{
+		padding: 1rem 0 0;
 	}
 }
 
+/* 704px */
 @media screen and (min-width: 44em){
 	#masthead{
 		height: 14rem;
@@ -230,11 +240,12 @@ footer{
 	}
 
 	#tagline{
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 	}
 }
 
-@media screen and (min-width: 44em){
+/* 960px */
+@media screen and (min-width: 60em){
 	#masthead{
 		height: 16rem;
 	}
@@ -244,11 +255,12 @@ footer{
 	}
 
 	#tagline{
-		font-size: 2rem;
+		font-size: 1.625rem;
 	}
 }
 
-@media screen and (min-width: 70em){
+/* 1200px */
+@media screen and (min-width: 75em){
 	#masthead{
 		height: 20rem;
 	}
@@ -258,13 +270,14 @@ footer{
 	}
 
 	#tagline{
-		font-size: 2.25rem;
+		font-size: 1.75rem;
 	}
 }
 
+/* 1600px */
 @media screen and (min-width: 100em){
 	#masthead{
-		height: 24rem;
+		height: 22rem;
 	}
 
 	#logo{
@@ -272,16 +285,17 @@ footer{
 	}
 
 	#tagline{
-		font-size: 2.5rem;
+		font-size: 1.875rem;
 	}
 }
 
+/* 1920px */
 @media screen and (min-width: 120em){
 	#masthead{
-		height: 28rem;
+		height: 26rem;
 	}
 
 	#tagline{
-		font-size: 2.75rem;
+		font-size: 2rem;
 	}
 }
