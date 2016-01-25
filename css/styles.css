@@ -65,10 +65,10 @@ img{
 
 #masthead{
 	padding: .5rem 0 0;
-	height: 8rem;
+	height: 10rem;
 	background-size: cover;
-	background-image: url("../img/masthead-xsmall.png");
-	background-position: center center;
+	background-image: url("../img/masthead-xxxsmall.jpg");
+	background-position: 50% 50%;
 	position: relative;
 }
 
@@ -181,21 +181,6 @@ footer{
 /*** Begin Media Queries ***/
 
 @media screen and (min-width: 30em){ /* 480px/16px */
-	#masthead{
-		height: 10rem;
-	}
-
-	#logo{
-		width: 70%;
-	}
-
-	#tagline{
-		font-size: 1.25rem;
-	}
-}
-
-/* Tablet/Desktop Styling */
-@media screen and (min-width: 37.5em){ /* 600px/16px */
 	.navToggle{
 		display: none;
 	}
@@ -217,6 +202,22 @@ footer{
 	}
 
 	#logo{
+		width: 70%;
+	}
+
+	#tagline{
+		font-size: 1.25rem;
+	}
+}
+
+/* Tablet/Desktop Styling */
+@media screen and (min-width: 44em){ /* 704px/16px */
+	#masthead{
+		height: 14rem;
+		padding: 1rem 0 0;
+	}
+
+	#logo{
 		width: 60%;
 	}
 
@@ -224,15 +225,11 @@ footer{
 		font-size: 1.375rem;
 		bottom: 1rem;
 	}
-
-	#masthead{
-		padding: 1rem 0 0;
-	}
 }
 
-@media screen and (min-width: 44em){ /* 704px/16px */
+@media screen and (min-width: 56em){ /* 896px/16px */
 	#masthead{
-		height: 14rem;
+		height: 18rem;
 	}
 
 	#logo{
@@ -244,9 +241,9 @@ footer{
 	}
 }
 
-@media screen and (min-width: 60em){ /* 960px/16px */
+@media screen and (min-width: 77em){ /* 1232px/16px */
 	#masthead{
-		height: 16rem;
+		height: 20rem;
 	}
 
 	#logo{
@@ -258,40 +255,22 @@ footer{
 	}
 }
 
-@media screen and (min-width: 75em){ /* 1200px/16px */
-	#masthead{
-		height: 20rem;
-	}
-
-	#logo{
-		width: 40%;
-	}
-
-	#tagline{
-		font-size: 1.75rem;
-	}
-}
-
-@media screen and (min-width: 100em){ /* 1600px/16px */
+@media screen and (min-width: 105em){ /* 1680px/16px */
 	#masthead{
 		height: 22rem;
 	}
 
-	#logo{
-		width: 35%;
-	}
-
 	#tagline{
-		font-size: 1.875rem;
+		font-size: 2rem;
 	}
 }
 
-@media screen and (min-width: 120em){ /* 1920px/16px */
+@media screen and (min-width: 140em){ /* 2240px/16px */
 	#masthead{
-		height: 26rem;
+		height: 24rem;
 	}
 
 	#tagline{
-		font-size: 2rem;
+		font-size: 2.25rem;
 	}
 }
