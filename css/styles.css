@@ -1,3 +1,5 @@
+/* Mobile First Styles */
+
 *,
 *::before,
 *::after{
@@ -115,7 +117,7 @@ nav{
 }
 
 .navItem a{
-	color: #fff;
+	color: #ecf0f1;
 	text-decoration: none;
 }
 
@@ -178,8 +180,7 @@ footer{
 
 /*** Begin Media Queries ***/
 
-/* 480px */
-@media screen and (min-width: 30em){
+@media screen and (min-width: 30em){ /* 480px/16px */
 	#masthead{
 		height: 10rem;
 	}
@@ -193,8 +194,8 @@ footer{
 	}
 }
 
-/* 600px */
-@media screen and (min-width: 37.5em){
+/* Tablet/Desktop Styling */
+@media screen and (min-width: 37.5em){ /* 600px/16px */
 	.navToggle{
 		display: none;
 	}
@@ -229,8 +230,7 @@ footer{
 	}
 }
 
-/* 704px */
-@media screen and (min-width: 44em){
+@media screen and (min-width: 44em){ /* 704px/16px */
 	#masthead{
 		height: 14rem;
 	}
@@ -244,8 +244,7 @@ footer{
 	}
 }
 
-/* 960px */
-@media screen and (min-width: 60em){
+@media screen and (min-width: 60em){ /* 960px/16px */
 	#masthead{
 		height: 16rem;
 	}
@@ -259,8 +258,7 @@ footer{
 	}
 }
 
-/* 1200px */
-@media screen and (min-width: 75em){
+@media screen and (min-width: 75em){ /* 1200px/16px */
 	#masthead{
 		height: 20rem;
 	}
@@ -274,8 +272,7 @@ footer{
 	}
 }
 
-/* 1600px */
-@media screen and (min-width: 100em){
+@media screen and (min-width: 100em){ /* 1600px/16px */
 	#masthead{
 		height: 22rem;
 	}
@@ -289,8 +286,7 @@ footer{
 	}
 }
 
-/* 1920px */
-@media screen and (min-width: 120em){
+@media screen and (min-width: 120em){ /* 1920px/16px */
 	#masthead{
 		height: 26rem;
 	}
