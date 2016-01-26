@@ -283,43 +283,43 @@ footer{
 
 /* Start High DPI Media Queries */
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){ /* High DPI Default */
+@media screen (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){ /* High DPI Default */
 	#masthead{
 		background-image: url("../img/masthead-xxsmall.jpg");
 	}
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) and (min-width: 30em){ /* High DPI 480px/16px */
+@media screen (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (min-width: 30em){ /* High DPI 480px/16px */
 	#masthead{
 		background-image: url("../img/masthead-xsmall.jpg");
 	}
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) and (min-width: 44em){ /* High DPI 704px/16px */
+@media screen (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (min-width: 44em){ /* High DPI 704px/16px */
 	#masthead{
 		background-image: url("../img/masthead-small.jpg");
 	}
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) and (min-width: 56em){ /* High DPI 896px/16px */
+@media screen (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (min-width: 56em){ /* High DPI 896px/16px */
 	#masthead{
 		background-image: url("../img/masthead-medium.jpg");
 	}
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) and (min-width: 77em){ /* High DPI 1232px/16px */
+@media screen (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (min-width: 77em){ /* High DPI 1232px/16px */
 	#masthead{
 		background-image: url("../img/masthead-large.jpg");
 	}
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) and (min-width: 105em){ /* High DPI 1680px/16px */
+@media screen (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (min-width: 105em){ /* High DPI 1680px/16px */
 	#masthead{
 		background-image: url("../img/masthead-xlarge.jpg");
 	}
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) and (min-width: 144em){ /* High DPI 2240px/16px */
+@media screen (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (min-width: 144em){ /* High DPI 2240px/16px */
 	#masthead{
 		background-image: url("../img/masthead-xxlarge.jpg");
 	}
