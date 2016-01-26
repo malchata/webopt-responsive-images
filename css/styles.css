@@ -183,6 +183,7 @@ footer{
 @media screen and (min-width: 30em){ /* 480px/16px */
 	#masthead{
 		height: 12rem;
+		background-image: url("../img/masthead-xxsmall.jpg");
 	}
 
 	#logo{
@@ -215,6 +216,7 @@ footer{
 	#masthead{
 		height: 14rem;
 		padding: 1rem 0 0;
+		background-image: url("../img/masthead-xsmall.jpg");
 	}
 
 	#logo{
@@ -230,6 +232,7 @@ footer{
 @media screen and (min-width: 56em){ /* 896px/16px */
 	#masthead{
 		height: 18rem;
+		background-image: url("../img/masthead-small.jpg");
 	}
 
 	#logo{
@@ -244,6 +247,7 @@ footer{
 @media screen and (min-width: 77em){ /* 1232px/16px */
 	#masthead{
 		height: 20rem;
+		background-image: url("../img/masthead-medium.jpg");
 	}
 
 	#logo{
@@ -258,6 +262,7 @@ footer{
 @media screen and (min-width: 105em){ /* 1680px/16px */
 	#masthead{
 		height: 22rem;
+		background-image: url("../img/masthead-large.jpg");
 	}
 
 	#tagline{
@@ -268,6 +273,7 @@ footer{
 @media screen and (min-width: 140em){ /* 2240px/16px */
 	#masthead{
 		height: 24rem;
+		background-image: url("../img/masthead-xlarge.jpg");
 	}
 
 	#tagline{
