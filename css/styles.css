@@ -144,6 +144,11 @@ nav{
 	margin: 0 auto;
 }
 
+.articleImageFull{
+	display: block;
+	margin: 1rem auto;
+}
+
 h1,
 h3,
 p{
