@@ -146,7 +146,12 @@ nav{
 
 .articleImageFull{
 	display: block;
-	margin: 1rem auto;
+	margin: 0 0 1rem;
+}
+
+.articleImageFull img{
+	display: block;
+	margin: 0 auto;
 }
 
 h1,
@@ -231,6 +236,12 @@ footer{
 	#tagline{
 		font-size: 1.375rem;
 		bottom: 1rem;
+	}
+
+	.articleImageFull{
+		float: right;
+		display: inline-block;
+		margin: 0 0 1rem 1rem;
 	}
 }
 
