@@ -144,12 +144,12 @@ nav{
 	margin: 0 auto;
 }
 
-.articleImageFull{
+picture{
 	display: block;
 	margin: 0 0 1rem;
 }
 
-.articleImageFull img{
+picture img{
 	display: block;
 	margin: 0 auto;
 }
@@ -238,7 +238,7 @@ footer{
 		bottom: 1rem;
 	}
 
-	.articleImageFull{
+	picture{
 		float: right;
 		display: inline-block;
 		margin: 0 0 1rem 1rem;
